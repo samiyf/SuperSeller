@@ -1,1 +1,204 @@
-See index.html above
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TopPick - Product Reviews & Recommendations</title>
+    <meta name="description" content="Discover our top product recommendations, comparisons and reviews.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-content">
+
+            <a href="index.html" class="logo">
+                Top<span>Pick</span>
+            </a>
+
+            <nav>
+                <a href="#categories">Categories</a>
+                <a href="#products">Top Picks</a>
+                <a href="#about">About</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">SMARTER SHOPPING</p>
+
+                <h1>
+                    Find products
+                    <span>worth buying.</span>
+                </h1>
+
+                <p>
+                    We research, compare and recommend products
+                    to help you make better buying decisions.
+                </p>
+
+                <a href="#products" class="button">
+                    Explore our picks
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section id="categories" class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE</p>
+                <h2>Shop by category</h2>
+            </div>
+
+            <div class="categories">
+
+                <a href="#products" class="category" data-category="Technology">
+                    <span>💻</span>
+                    <h3>Technology</h3>
+                    <p>Laptops, accessories and gadgets.</p>
+                </a>
+
+                <a href="#products" class="category" data-category="Home">
+                    <span>🏠</span>
+                    <h3>Home</h3>
+                    <p>Products that improve your home.</p>
+                </a>
+
+                <a href="#products" class="category" data-category="Audio">
+                    <span>🎧</span>
+                    <h3>Audio</h3>
+                    <p>Headphones, speakers and more.</p>
+                </a>
+
+                <a href="#products" class="category" data-category="Fitness">
+                    <span>🏃</span>
+                    <h3>Fitness</h3>
+                    <p>Gear for your active lifestyle.</p>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section id="products" class="section products-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">OUR RECOMMENDATIONS</p>
+                <h2>Top picks</h2>
+                <p>
+                    Products we've selected based on features,
+                    value and overall quality.
+                </p>
+            </div>
+
+            <div id="product-grid" class="product-grid">
+                <!-- Products are loaded by data.js -->
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <div class="container about-content">
+
+            <div>
+                <p class="eyebrow">ABOUT US</p>
+                <h2>We make shopping easier.</h2>
+            </div>
+
+            <p>
+                Shopping online can be overwhelming. There are thousands
+                of products and hundreds of reviews to go through.
+                Our goal is to make that process simpler by researching
+                products and highlighting the options we think are worth
+                considering.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Affiliate Disclosure -->
+    <section class="disclosure">
+
+        <div class="container">
+
+            <strong>Affiliate Disclosure</strong>
+
+            <p>
+                Some links on this website are affiliate links.
+                This means we may earn a commission if you make a
+                purchase through one of our links, at no additional
+                cost to you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <div class="logo">
+                    Top<span>Pick</span>
+                </div>
+
+                <p>
+                    Helping you find products worth buying.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Affiliate Disclosure</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="container copyright">
+            © 2026 TopPick. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="js/data.js"></script>
+
+</body>
+</html>
